@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+	list-style: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	clear: both;
+	content: ".";
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #262626;
+	background: #f5f8fb;
+}
+
+p{
+	
+}
+
+/* COMMON CSS START HERE **/
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p,
+a,
+button,
+div {
+	font-family: 'Roboto', sans-serif;
+	color: #262626;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p {
+	margin: 0;
+}
+
+.mglr-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.pdlr-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.mgl-30 {
+	margin-left: 30px;
+}
+
+.pdl-30 {
+	padding-left: 30px;
+}
+
+.mgl-40 {
+	margin-left: 40px;
+}
+
+.pdl-40 {
+	padding-left: 40px;
+}
+
+.mgt-5 {
+	margin-top: 5px;
+}
+
+.mgt-10 {
+	margin-top: 10px;
+}
+
+.mgt-15 {
+	margin-top: 10px;
+}
+
+.mgt-20 {
+	margin-top: 20px;
+}
+
+.mgt-25 {
+	margin-top: 25px;
+}
+
+.mgt-30 {
+	margin-top: 30px;
+}
+
+.mgt-35 {
+	margin-top: 35px;
+}
+
+.pdt-5 {
+	padding-top: 5px;
+}
+
+.pdt-10 {
+	padding-top: 10px;
+}
+
+.pdt-15 {
+	padding-top: 10px;
+}
+
+.pdt-20 {
+	padding-top: 20px;
+}
+
+.pdt-25 {
+	padding-top: 25px;
+}
+
+.pdt-30 {
+	padding-top: 30px;
+}
+
+.pdt-35 {
+	padding-top: 35px;
+}
+
+.pdr-0 {
+	padding-right: 0 !important;
+}
+
+.pdl-0 {
+	padding-left: 0 !important;
+}
+
+.interactive-demo-field label{
+
+}
+
+.interactive-demo-field input{
+display: inline-block;
+width: auto;
+}
+
+object, embed { 
+	outline: 0;
+  }
+
+map area{
+    outline: none !important;
+}
+
+/* start multiple image css */
+
+.gallery {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background: #f6f9f9;
+    text-align: center;
+    color: #3b4954;
+	font-family: 'Oxygen', sans-serif;
+	background: #80c0ec;
+}
+
+.gallery .col-md-4 {
+    padding-bottom: 32px;
+    overflow: hidden;
+}
+
+.cmn-img-pnl-div img {
+	border: 1px solid #23282d;
+	border-radius: 30px;
+}
+
+
+.justify-center-content {
+	justify-content: center;
+	display: flex;
+}
+
+map {
+	outline: 0;
+	}
+
+.sec_common_div{
+position: relative;
+}
+
+.iphone-absoluto-img{
+    max-width: 390px;
+    position: absolute;
+    top: -27px;
+    left: 28px;
+    z-index: 2;
+}
+
+.iphone-absoluto-img img{
+	width: 100%;
+}
+
+.notch-img-up{
+    max-width: 120px;
+    position: absolute;
+    top: -5px;
+    left: 165px;
+    z-index: 102;
+}
+.notch-img-up img{
+	width: 100%;
+}
+
+
+
+/*
+	.cmn-img-pnl-div{
+		width: 250px;
+		height: 400px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.cmn-img-pnl-div img{
+	height: auto;
+    width: 100%;
+    object-fit: cover;
+	}
+*/
+
+	.cmn-img-pnl-div {
+		display: none;
+		position: relative;
+		z-index: 99;
+	}
+
+	.d-block-active{
+		display: block;
+	}
+
+img {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+/**/
+
+
+/* media query css here **/
+@media only screen and (max-width: 768px) {
+	.iphone-absoluto-img {
+		width: 395px;
+		position: absolute;
+		top: -32px;
+		left: -64px;
+		z-index: 2;
+	}
+
+	.notch-img-up {
+		max-width: 110px;
+		top: -6px;
+		left: 75px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 440px) {
+	.iphone-absoluto-img {
+		width: 395px;
+		top: -28px;
+		left: -3px;
+	}
+
+	.notch-img-up {
+		max-width: 120px;
+		top: -5px;
+		left: 132px;
+	}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+	.iphone-absoluto-img {
+			width: 395px;
+			top: -26px;
+			left: -23px;
+	}
+	.notch-img-up {
+		max-width: 140px;
+		top: -3px;
+		left: 103px;
+	}
+
+}
+
+@media only screen and (max-width: 360px) {
+	.iphone-absoluto-img {
+		width: 395px;
+		top: -26px;
+		left: -30px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	.iphone-absoluto-img {
+		width: 400px;
+		top: -25px;
+		left: -50px;
+	}
+
+	.notch-img-up {
+		max-width: 110px;
+		top: -5px;
+		left: 88px;
+	}
+
+}
+
+
+/** end here **/
